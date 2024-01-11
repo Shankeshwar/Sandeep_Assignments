@@ -1,0 +1,4 @@
+- create a VM ( everything belong to vm, voc subnet,route table, internet gateway, security groups)using terraform modules
+- during creation using provisioner's install Jenkins in the VM (ref - option as userdata in aws portal during vm creation)
+- execute "service.start" commands for jenkins start
+Note: after VM is up and running, you be able to directly open Jenkins and start using without entering into the VM
